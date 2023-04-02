@@ -1,5 +1,1 @@
-the cronjob list is as follows
-
-*/3 * * * *  python $HOME/pyscripts/youtube_trending.py
-*/3 * * * *  python $HOME/pyscripts/twitch_trending.py
-0 * * * *  python $HOME/pyscripts/purge_outdated_trending.py
+the cronjob list of a termux server configured as this folder's content: crontab.txt
