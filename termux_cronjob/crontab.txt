@@ -1,0 +1,7 @@
+#*/3 * * * *  sh $HOME/cronjob.sh >> $PREFIX/var/log/exp.log 2&>1
+#*/3 * * * *  python $HOME/pycron.py >> $PREFIX/var/log/exp.log 2&>1
+*/3 * * * *  python $HOME/pyscripts/youtube_trending.py
+*/3 * * * *  python $HOME/pyscripts/twitch_trending.py
+0 * * * *  python $HOME/pyscripts/purge_outdated_trending.py
+
+
